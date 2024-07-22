@@ -1,6 +1,6 @@
 # Student Enrollment Form
 
-This project is a web-based Student Enrollment Form that stores data in the `STUDENT-TABLE` relation of the `SCHOOL-DB` MySQL database. The form allows users to save new student records, update existing ones, and reset the form fields.
+This project is a web-based Student Enrollment Form that stores data in the `STUDENT-TABLE` relation of the `SCHOOL-DB` MySQL database. The form allows users to save new student records, update existing ones, and reset the form fields. 
 
 ## Features
 
