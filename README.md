@@ -66,4 +66,30 @@ This project is a web-based Student Enrollment Form that stores data in the `STU
 5. **Access the form**:
     Open your web browser and navigate to the URL where you have deployed the `index.html` file. For example, if you're using XAMPP and placed the files in the `htdocs` folder, you might go to `http://localhost/index.html`.
 
+   
+## Usage
+
+1. **On page load**, the form will be empty, and all fields except the `Roll No` field will be disabled.
+2. **Enter a `Roll No`**:
+    - If the `Roll No` does not exist in the database, the `Save` and `Reset` buttons will be enabled, and the user can enter data in the form fields.
+    - If the `Roll No` exists in the database, the form will display the existing data, the `Update` and `Reset` buttons will be enabled, and the user can update the data.
+3. **Save or Update**:
+    - Click the `Save` button to store new data in the database.
+    - Click the `Update` button to update existing data in the database.
+4. **Reset**:
+    - Click the `Reset` button to clear the form and reset it to its initial state.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 
